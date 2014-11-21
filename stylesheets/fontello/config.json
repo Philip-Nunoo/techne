@@ -1,0 +1,88 @@
+{
+  "name": "personal",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "c5fd349cbd3d23e4ade333789c29c729",
+      "css": "eye",
+      "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "f5999a012fc3752386635ec02a858447",
+      "css": "download-cloud",
+      "code": 59392,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "8e04c98c8f5ca0a035776e3001ad2638",
+      "css": "facebook",
+      "code": 59393,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "b8d0c7d76e87b94882329a88e8e43d3d",
+      "css": "gplus",
+      "code": 59401,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "da851b7c1f84ee83f93b29ae613558dc",
+      "css": "pinterest-circled",
+      "code": 59400,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "627abcdb627cb1789e009c08e2678ef9",
+      "css": "twitter",
+      "code": 59399,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "933f454f9d3342a055217fd695475d44",
+      "css": "contact",
+      "code": 59402,
+      "src": "typicons"
+    },
+    {
+      "uid": "d1a7ajpi3149rk5q4861jw9f2lzg27d1",
+      "css": "user-pair",
+      "code": 59398,
+      "src": "modernpics"
+    },
+    {
+      "uid": "51fb22f9ff9d7f60c95ef31e4c59502d",
+      "css": "message",
+      "code": 59403,
+      "src": "mfglabs"
+    },
+    {
+      "uid": "22cfc7af2c4f158b37317c65c92b48c2",
+      "css": "location",
+      "code": 59394,
+      "src": "elusive"
+    },
+    {
+      "uid": "64abb7c56aefca89046bb69f7251d2e2",
+      "css": "calendar",
+      "code": 59404,
+      "src": "elusive"
+    },
+    {
+      "uid": "b59cc4d390a6df564a055f43c03a6af5",
+      "css": "camera",
+      "code": 59396,
+      "src": "linecons"
+    },
+    {
+      "uid": "8573943a49ed6dd8f7819070445baa46",
+      "css": "photo",
+      "code": 59397,
+      "src": "linecons"
+    }
+  ]
+}

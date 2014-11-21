@@ -1,0 +1,92 @@
+// Global Foundation Settings
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans+Condensed:300,300italic,700);
+@import "settings";
+@import "my_settings";
+@import "foundation/components/global";
+@import "foundation/components/grid";
+
+$font1 : 'Oswald', sans-serif;
+$font2 : 'Open Sans Condensed', sans-serif;
+
+body, html{
+	font-size: 14px;
+	font-weight: 100;
+	font-family: $font1;
+	height: 100%;
+}
+
+section{
+	&#home{
+		padding: 11% 0px;
+
+		.title{
+			font-size: 10em;
+		}
+
+		.sub-title{
+			font-size: 27px;
+		}
+	}
+
+	&#about{
+		padding: 2% 0px;
+
+		h1{
+			font-family: $font1;
+			font-size: 3em;
+			font-weight: 100;
+			margin:0px;
+		}
+
+		p{
+			line-height: 1.7em;
+			color: #555;
+		}
+	}
+
+	&#contact{
+		padding: 2% 0px;
+
+		h1{
+			font-family: $font1;
+			font-size: 3em;
+			font-weight: 100;
+			margin: 0px;
+		}
+
+		input[type="text"], 
+		input[type="email"],
+		input[type="submit"],
+		textarea{
+			font-family: $font2;
+			padding: 5px;
+			font-size: 122%;
+			display: block;
+			border: solid 1px #AAA;
+			color: #555;
+			margin-bottom: 8px;
+		}
+
+		textarea{
+			height: 223px;
+			width: 469px;
+			resize: none;
+		}
+
+		input[type="submit"]{
+			background-color: #000;
+			color: #FFF;
+			padding: 10px 30px;
+			border-radius: 3px;
+
+			&:hover{
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+footer{
+	text-align: center;
+	padding: 1.5% 0px;
+}

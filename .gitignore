@@ -1,0 +1,21 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+node_modules
+client/dist/*pre*.js
+.sass-cache
+modals
+sass/_my_settings.scss
+sass/_normalize.scss
+sass/_settings.scss
+sass/page.css.map
+sass/page.scss
+stylesheets/responsive-nav.js-master
+robots.txt
+index1.html
