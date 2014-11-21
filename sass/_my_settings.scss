@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans|Lobster|Shadows+Into+Light|Open+Sans+Condensed:300,300italic|Indie+Flower|Roboto:400,100,700);
+$roboto: "Roboto", sans-serif;
+$indie: "Indie Flower", sans-serif;
+$sans: "PT Sans", sans-serif;
+$lobster: "Lobster", sans-serif;
+
+/*
+ * Media Queries
+ */
+$break-small: 320px;
+$break-large: 1024px;
+$base-color: #3882CD;
+
+/*// https://color.adobe.com/create/color-wheel/?base=2&rule=Shades&selected=4&name=My%20Color%20Theme&mode=rgb&rgbvalues=0.37570093457943926,0.3981308411214894,0.4,0.8922897196261682,0.9455607476635373,0.9500000000000001,0.6105140186915887,0.6469626168224202,0.65,0.6574766355140187,0.6967289719626064,0.7000000000000001,0.516588785046729,0.5474299065420479,0.55&swatchOrder=0,1,2,3,4*/
+
+$color1: #606666;
+$color2: #E4F1F2;
+$color3: #9CA5A6;
+$color4: #A8B2B2;
+$color5: #848C8C;
+$color6: #FFFFFF;
+
+@mixin respond-to($media) {
+  @if $media == handhelds {
+    @media only screen and (max-width: $break-small) { @content; }
+  }
+  @else if $media == medium-screens {
+    @media only screen and (min-width: $break-small + 1) and (max-width: $break-large - 1) { @content; }
+  }
+  @else if $media == wide-screens {
+    @media only screen and (min-width: $break-large) { @content; }
+  }
+}
+
+/* End of media queris function*/
+
+a {
+  text-decoration: none;
+}
+
+body, html{
+    font-family: $roboto;
+    font-weight: 100;
+    height: 100%;
+}
