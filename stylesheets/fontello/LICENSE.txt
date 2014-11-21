@@ -1,6 +1,15 @@
 Font license info
 
 
+## Zocial
+
+   Copyright (C) 2012 by Sam Collins
+
+   Author:    Sam Collins
+   License:   MIT (http://opensource.org/licenses/mit-license.php)
+   Homepage:  http://zocial.smcllns.com/
+
+
 ## Font Awesome
 
    Copyright (C) 2012 by Dave Gandy
@@ -8,15 +17,6 @@ Font license info
    Author:    Dave Gandy
    License:   SIL ()
    Homepage:  http://fortawesome.github.com/Font-Awesome/
-
-
-## Elusive
-
-   Copyright (C) 2013 by Aristeides Stathopoulos
-
-   Author:    Aristeides Stathopoulos
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://aristeides.com/
 
 
 ## Linecons
@@ -28,22 +28,13 @@ Font license info
    Homepage:  http://designmodo.com/linecons-free/
 
 
-## Modern Pictograms
+## Brandico
 
-   Copyright (c) 2012 by John Caserta. All rights reserved.
+   (C) 2012 by Vitaly Puzrin
 
-   Author:    John Caserta
+   Author:    Crowdsourced, for Fontello project
    License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://thedesignoffice.org/project/modern-pictograms/
-
-
-## Typicons
-
-   (c) Stephen Hutchings 2012
-
-   Author:    Stephen Hutchings
-   License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://typicons.com/
+   Homepage:  
 
 
 ## MFG Labs

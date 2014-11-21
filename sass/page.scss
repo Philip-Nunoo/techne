@@ -13,14 +13,27 @@ body, html{
 	font-weight: 100;
 	font-family: $font1;
 	height: 100%;
+	background-color: #EFEFEF;
 }
 
 section{
 	&#home{
-		padding: 11% 0px;
+		background: url('../image/background1.jpg') center center no-repeat fixed;
+		background-size: cover;
 
+		div{
+			&.overlay{
+				background-color: rgba(23,45,66,0.4);
+			}
+		}
+
+		.title-div{
+			padding: 27% 0px;
+
+		}
 		.title{
 			font-size: 10em;
+			color: #FFF;
 		}
 
 		.sub-title{
@@ -29,7 +42,8 @@ section{
 	}
 
 	&#about{
-		padding: 2% 0px;
+		padding: 4.5% 0px;
+		background-color: #FFF;
 
 		h1{
 			font-family: $font1;
@@ -42,6 +56,38 @@ section{
 			line-height: 1.7em;
 			color: #555;
 		}
+
+		.row-item{
+			text-align: center;
+			background-color: rgb(40, 168, 168);
+
+			h1{
+				font-size:30px;
+				margin: 12px;
+			}
+
+			p{
+				line-height: 1.3em;
+				letter-spacing: .0412em;
+				font-size: 14px;
+				margin: 0px;
+				padding: 0px 5px 28px;
+				color: #FFF;
+			}
+			
+			i{
+				font-size: 67px;
+				text-align: center;
+				display: block;
+				background-color: #000;
+				color: #FFF;
+				padding: 8px;
+			}
+		}
+	}
+
+	&#what-we-do{
+		padding: 2% 0px;
 	}
 
 	&#contact{
